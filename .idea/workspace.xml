@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8467b0b-1a47-4233-a7d6-c38ca51558e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/02913d9a-8ae2-422b-943b-83db6b4071c3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8ec9ecf1-51ba-406d-83ad-f28cbf43bab8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb0e0ac3-83c8-402e-b47a-313f5c8b37bb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ec658a96-1e86-4eb5-840d-d5415d74a91b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/crud/TestCreateToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/crud/TestHealthCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojos/TokenResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojos/TokenResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/crud/TestCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/crud/TestCreateBooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCreateToken">
+  <component name="RunManager" selected="TestNG.TestHealthCheck">
     <configuration name="TestCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationCustomFramework" />
       <extension name="coverage">
@@ -114,8 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestHealthCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationCustomFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="crud" />
+      <option name="MAIN_CLASS_NAME" value="crud.TestHealthCheck" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHealthCheck" />
         <item itemvalue="TestNG.TestCreateToken" />
         <item itemvalue="TestNG.TestCreateBooking" />
         <item itemvalue="TestNG.TestCreateBooking.testCreateBookingPOST_Positive" />
