@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8467b0b-1a47-4233-a7d6-c38ca51558e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojos/request/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojos/request/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojos/request/BookingDates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojos/response/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/crud/TestCreateBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojos/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojos/Booking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojos/BookingResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojos/Bookingdates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/asserts/AssertActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/asserts/AssertActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojos/response/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojos/response/BookingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/crud/TestCreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/crud/TestCreateBooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

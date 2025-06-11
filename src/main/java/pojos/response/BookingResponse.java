@@ -3,6 +3,7 @@ package pojos.response;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import pojos.request.Booking;
 import pojos.request.BookingDates;
 
 @Data
@@ -17,4 +18,7 @@ public class BookingResponse {
     private Boolean depositpaid;
     private String additionalneeds;
     private BookingDates bookingdates;
+
+    private Booking booking;
+
 }

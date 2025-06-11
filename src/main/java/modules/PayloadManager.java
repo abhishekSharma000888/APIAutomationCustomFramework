@@ -11,7 +11,7 @@ public class PayloadManager {
 
      // Convert the Java Object into the JSON String to use it as the payload.
     // Serialization
-    public String createPayloacBookingAsString(){
+    public String createPayloadBookingAsString(){
 
         Booking booking = new Booking();
         booking.setFirstname("Abhishek");
