@@ -1,6 +1,8 @@
 package modules;
 
 import com.google.gson.Gson;
+import pojos.TokenResponse;
+import pojos.request.Auth;
 import pojos.request.Booking;
 import pojos.request.BookingDates;
 import pojos.response.BookingResponse;
@@ -8,6 +10,8 @@ import pojos.response.BookingResponse;
 import java.awt.print.Book;
 
 public class PayloadManager {
+
+    Gson gson = new Gson();
 
      // Convert the Java Object into the JSON String to use it as the payload.
     // Serialization
@@ -46,6 +50,25 @@ public class PayloadManager {
         BookingResponse bookingResponse = gson.fromJson(responseString, BookingResponse.class);
 
             return bookingResponse;
+    }
+
+    // Java Object -> JSON
+    public String setAuthPayload(){
+        Auth auth = new Auth();
+        auth.setUsername("admin");
+        auth.setPassword("password123");
+        gson = new Gson();
+        String jsonPayloadString = gson.toJson(auth);
+        System.out.println("Payload set to the -> " + jsonPayloadString);
+        return jsonPayloadString;
+
+    }
+
+    // DeSerealization ( JSON String -> Java Object
+    public String getTokenFromJSON(String tokenResponse){
+        gson = new Gson();
+        TokenResponse tokenResponse1 = gson.fromJson(tokenResponse, TokenResponse.class);
+        return  tokenResponse1.getToken();
     }
 
 }

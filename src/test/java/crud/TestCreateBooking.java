@@ -27,18 +27,4 @@ public class TestCreateBooking extends BaseTest {
     }
 
 
-    @Test(groups = "reg", priority = 1)
-    @Owner("Abhishek")
-    @Description("TC#1 - Verify that the Booking can't be Created, When Payload is null")
-    public void testCreateBookingPOST_Negative() {
-
-        System.out.println("I am in the starting of the test case!");
-    }
-
-
-
-
-
-
-
     }
