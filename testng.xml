@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTestSuite" verbose="1" parallel="false">
+    <test name="RegressionTests">
+        <packages>
+            <package name="e2e_integration"/>
+            <package name="modules"/>
+            <package name="crud"/>
+            <!-- Add more package names where your @Test classes live -->
+        </packages>
+    </test>
+</suite>
