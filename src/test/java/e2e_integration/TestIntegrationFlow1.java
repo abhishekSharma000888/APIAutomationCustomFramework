@@ -7,10 +7,10 @@ import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
-import pojos.request.Booking;
-import pojos.response.BookingResponse;
+import request.Booking;
+import response.BookingResponse;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 public class TestIntegrationFlow1 extends BaseTest {
 

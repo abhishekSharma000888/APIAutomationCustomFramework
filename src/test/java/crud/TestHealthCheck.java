@@ -1,7 +1,6 @@
 package crud;
 
 import base.BaseTest;
-import com.fasterxml.jackson.databind.ser.Serializers;
 import endpoints.APIConstants;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

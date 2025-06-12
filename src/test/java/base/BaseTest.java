@@ -5,11 +5,11 @@ import endpoints.APIConstants;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import modules.PayloadManager;
-import io.restassured.path.json.JsonPath;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 

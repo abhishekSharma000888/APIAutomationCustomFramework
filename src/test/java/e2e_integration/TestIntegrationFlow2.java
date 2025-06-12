@@ -7,7 +7,7 @@ import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
-import pojos.response.BookingResponse;
+import response.BookingResponse;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

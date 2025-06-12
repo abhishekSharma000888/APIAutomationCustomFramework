@@ -30,5 +30,4 @@ public class TestCreateToken extends BaseTest {
 
 
     }
-
 }

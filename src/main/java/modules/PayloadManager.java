@@ -2,17 +2,14 @@ package modules;
 
 import com.github.javafaker.Faker;
 import com.google.gson.Gson;
-import pojos.TokenResponse;
-import pojos.request.Auth;
-import pojos.request.Booking;
-import pojos.request.BookingDates;
-import pojos.response.BookingResponse;
-
-import java.awt.print.Book;
+import request.Auth;
+import request.Booking;
+import request.Bookingdates;
+import response.BookingResponse;
+import response.TokenResponse;
 
 public class PayloadManager {
-
-    Gson gson = new Gson();
+    public Gson gson = new Gson();
     Faker faker = new Faker();
 
     // Convert the Java Object into the JSON String to use it as the payload.
@@ -23,9 +20,9 @@ public class PayloadManager {
         booking.setFirstname("Abhishek");
         booking.setLastname("Sharma");
         booking.setTotalprice(100);
-        booking.setDepositpaid(true);
+        booking.setDepositpaid(Boolean.TRUE);
 
-        BookingDates bookingDates = new BookingDates();
+        Bookingdates bookingDates = new Bookingdates();
 
         bookingDates.setCheckin("2018-01-01");
         bookingDates.setCheckout("2019-01-01");
@@ -77,10 +74,10 @@ public class PayloadManager {
         Booking booking = new Booking();
         booking.setFirstname("会意; 會意");
         booking.setLastname("会意; 會意");
-        booking.setTotalprice(112);
-        booking.setDepositpaid(false);
+        booking.setTotalprice(Integer.valueOf(112));
+        booking.setDepositpaid(Boolean.valueOf(false));
 
-        BookingDates bookingdates = new BookingDates();
+        Bookingdates bookingdates = new Bookingdates();
         bookingdates.setCheckin("5025-02-01");
         bookingdates.setCheckout("5025-02-01");
         booking.setBookingdates(bookingdates);
@@ -109,7 +106,7 @@ public class PayloadManager {
         booking.setTotalprice(faker.random().nextInt(1, 1000));
         booking.setDepositpaid(faker.random().nextBoolean());
 
-        BookingDates bookingdates = new BookingDates();
+        Bookingdates bookingdates = new Bookingdates();
         bookingdates.setCheckin("2024-02-01");
         bookingdates.setCheckout("2024-02-01");
         booking.setBookingdates(bookingdates);
@@ -134,10 +131,10 @@ public class PayloadManager {
         Booking booking = new Booking();
         booking.setFirstname("Lucky");
         booking.setLastname("Dutta");
-        booking.setTotalprice(112);
-        booking.setDepositpaid(true);
+        booking.setTotalprice(Integer.valueOf(112));
+        booking.setDepositpaid(Boolean.valueOf(true));
 
-        BookingDates bookingdates = new BookingDates();
+        Bookingdates bookingdates = new Bookingdates();
         bookingdates.setCheckin("2024-02-01");
         bookingdates.setCheckout("2024-02-05");
         booking.setBookingdates(bookingdates);

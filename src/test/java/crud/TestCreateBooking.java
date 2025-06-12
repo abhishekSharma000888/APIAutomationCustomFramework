@@ -1,12 +1,12 @@
 package crud;
 
 import base.BaseTest;
+import endpoints.APIConstants;
+import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
-import jdk.jfr.Description;
 import org.testng.annotations.Test;
-import endpoints.APIConstants;
-import pojos.response.BookingResponse;
+import response.BookingResponse;
 
 public class TestCreateBooking extends BaseTest {
 
@@ -69,4 +69,4 @@ public class TestCreateBooking extends BaseTest {
 
     }
 
-    }
+}

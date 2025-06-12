@@ -2,12 +2,10 @@ package asserts;
 
 import io.restassured.response.Response;
 
+import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.testng.Assert.assertEquals;
-import static org.assertj.core.api.Assertions.*;
 
 public class AssertActions {
-
-    // assert actions are common assertions
 
     public void verifyResponseBody(String actual, String expected, String description){
         assertEquals(actual,expected,description);
@@ -37,6 +35,4 @@ public class AssertActions {
 
         assertThat(keyExpect).isNotNull();
     }
-
-
 }
